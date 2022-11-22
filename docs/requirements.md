@@ -38,23 +38,23 @@ Citizens of Bristol (Students, Workers, Maintainers), Tourists, Council
 
 ## Software Requirements Specification
 ### Functional requirements
-FR1: Make use of Open Data Bristol dataset for public toilet locations on the map available.
-FR2: Obtain a user location; whether it be *theirs* or a location given e.g. postcode.
-FR3: Compare the user location supplied together with the distances to the nearest (e.g.) 3 toilets around them.
-FR4: Be able to supply the user with directions to these locations AND (if applicable) tell the user the name of the facility which the toilet is inside of.
+ - FR1: Make use of Open Data Bristol dataset for public toilet locations on the map available.
+ - FR2: Obtain a user location; whether it be *theirs* or a location given e.g. postcode.
+ - FR3: Compare the user location supplied together with the distances to the nearest (e.g.) 3 toilets around them.
+ - FR4: Be able to supply the user with directions to these locations AND (if applicable) tell the user the name of the facility which the toilet is inside of.
 
 
 
 
 ### Non-Functional Requirements
-NFR1: Tell user change of ground level when supplying directions. (if they'll be walking up/downhill)
-NFR2: Supply the user with an ETA.
-NFR3: Allow users to rate different locations based on variety of properties such as:
+ - NFR1: Tell user change of ground level when supplying directions. (if they'll be walking up/downhill)
+ - NFR2: Supply the user with an ETA.
+ - NFR3: Allow users to rate different locations based on variety of properties such as:
    - Difficulty to find
    - Hygiene 
    - How busy
 
-NFR4: Allow the user to choose routes based on different factors e.g.
+ - NFR4: Allow the user to choose routes based on different factors e.g.
    - Selection by special need e.g. disabled / baby 
    - Least turns
    - Not uphill and/or least level change
