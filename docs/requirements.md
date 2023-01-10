@@ -23,7 +23,7 @@ Citizens of Bristol (Students, Workers, Maintainers), Tourists, Council
 | **Non-functional** | Supply the user with nearest (1 or multiple) locations of public toilets around given location provided by user. |
 | **Issues** | If user is really far from a public toilet, could possibly supply with bus routes based on open data. |
 
-| UC2 | TODO: USE-CASE NAME *For example, you could do Traffic Analysis ( businesses and council can see where most people go -> lets them make business desitions blah blah )* | <- *Ismail* just do your one here>
+| UC2 | TODO: USE-CASE NAME |
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
