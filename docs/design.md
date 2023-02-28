@@ -12,7 +12,6 @@ User doesn't share their location with app e.g. want to pre-plan journey and/or 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
 
 ## User Interface design
-TODO: Specify and develop a user interface mockup using a wireframe.
 
-![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
-TODO: repeat as necessary
+
+![Insert your wireframe screenshots for each use-case here](images/wireframe1.png)
