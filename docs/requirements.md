@@ -23,15 +23,15 @@ Citizens of Bristol (Students, Workers, Maintainers), Tourists, Council
 | **Non-functional** | Supply the user with nearest (1 or multiple) locations of public toilets around given location provided by user. |
 | **Issues** | If user is really far from a public toilet, could possibly supply with bus routes based on open data. |
 
-| UC2 | TODO: USE-CASE NAME |
+| UC2 | Show a list of public toilets |
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Description** | The users of the app can use this to attain a list of the toilets throughout the city |
+| **Actors** | The general public |
+| **Assumptions** | Assumption that the user would like to check a list of the toilets available in Bristol</td></tr>
+| **Steps** | A: The user selects the list view, displaying all of the toilets available |
+| **Variations** | The user may not want to share their location, not allowing them to sort by nearest |
+| **Non-functional** | Allow the user to sort the toilets by different things, e.g nearest to city centre, or alphabetical |
+| **Issues** | Allow the user to sort the list in whatever way they want. |
   
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
