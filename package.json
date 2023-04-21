@@ -1,0 +1,21 @@
+{
+  "name": "publictoiletfinder",
+  "version": "1.0.0",
+  "description": "Web based app allowing users to view locations of public toilets near them when in need.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Dnvas/Team8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
