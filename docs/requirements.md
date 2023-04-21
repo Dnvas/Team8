@@ -23,15 +23,25 @@ Citizens of Bristol (Students, Workers, Maintainers), Tourists, Council
 | **Non-functional** | Supply the user with nearest (1 or multiple) locations of public toilets around given location provided by user. |
 | **Issues** | If user is really far from a public toilet, could possibly supply with bus routes based on open data. |
 
-| UC2 | Show a list of public toilets |
+| UC2 | Users which require specific toilets |
 | -------------------------------------- | ------------------- |
-| **Description** | The users of the app can use this to attain a list of the toilets throughout the city |
-| **Actors** | The general public |
-| **Assumptions** | Assumption that the user would like to check a list of the toilets available in Bristol</td></tr>
-| **Steps** | A: The user selects the list view, displaying all of the toilets available |
+| **Description** | People with special needs may or may not need to use specific types of toilets when outside. |
+| **Actors** | Specific members of general public (parents with children, people with certain types of disabilities) |
+| **Assumptions** | A parent with a young child needs to find a restroom with a changing table/ Disabled person may need a large, accessible toilet.</td></tr>
+| **Steps** | A: The user gives their location OR enters manually and filters by type of toilet required. |
 | **Variations** | The user may not want to share their location, not allowing them to sort by nearest |
-| **Non-functional** | Allow the user to sort the toilets by different things, e.g nearest to city centre, or alphabetical |
-| **Issues** | Allow the user to sort the list in whatever way they want. |
+| **Non-functional** | The app should provide accurate information on the availability and cleanliness of changing tables, as well as any additional amenities available. |
+| **Issues** | The app may not have up-to-date information on restroom availability or cleanliness, or there may be a lack of restrooms with changing tables in certain areas. |
+
+| UC3 | Observing traffic in different toilet locations |
+| -------------------------------------- | ------------------- |
+| **Description** | Businesses may benefit from having information on traffic through various locations |
+| **Actors** | Local businesses within the area or perhaps people looking to open a business |
+| **Assumptions** | Relatively accurate and recent information is available.</td></tr>
+| **Steps** | People who require the information can view the toilet, in turn having the traffic of the toilet available to them. |
+| **Variations** | Based on rating of toilet (along with different factors), users can view traffic in google of their given location.|
+| **Non-functional** | The app should provide accurate traffic information based on different times throughout the day. |
+| **Issues** | The app may not have up-to-date information on restroom traffic due to some users not allowing app to use their location. |
   
 
 ![Insert your Use-Case Diagram Here](images/use-case.png)
