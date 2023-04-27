@@ -1,6 +1,7 @@
-# Public Toilet Finder
+# Team 8 - Public Toilet Finder
 
-Web based app allowing users to view locations of Public Toilets near them in the city of Bristol.
+Welcome to our project
+We are creating a web based app allowing users to view locations of Public Toilets near them in the city of Bristol.
 The app is designed for anyone who is in the city of Bristol, whether they are citizens or tourists to quickly find out where the closest public toilet to them is, to allow them to relieve themselves while being out and about in the city.
 
 # Dataset
