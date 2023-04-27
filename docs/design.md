@@ -9,8 +9,8 @@ User would like to locate public toilets around *their specific location* e.g. t
 User doesn't share their location with app e.g. want to pre-plan journey and/or would prefer to not share their location in general.
  - Do not grant app permission to user location, enter addresses/ points of interest manually.
 
-### Use Case 2
-## Scenario
+## Use Case 2
+### Scenario
 
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
