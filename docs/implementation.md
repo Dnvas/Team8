@@ -1,7 +1,11 @@
 # Implementation
 
 ## Introduction
-TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
+The dataset that we are using for the project is the public toilets dataset, from the Bristol Open Data website. The link can be found below:
+
+https://opendata.bristol.gov.uk/explore/dataset/public-toilets-community/information/?location=15,51.45136,-2.59764&basemap=jawg.streets
+
+There are no known issues with this dataset.
 
 ## Project Structure
 TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).
