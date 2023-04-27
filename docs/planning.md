@@ -5,9 +5,13 @@
 ### Problem statement
 Allow for the public, whether it be visitors or locals, of Bristol to efficiently relieve themselves whenever
 outside by providing them with open data of **Public Toilets** around the city.
+
 A barrier to new people wanting to visit the city may be they are unsure about public toilets, meaning they might be less inclined to visit. A app which presents to the public the nearest public toilet will be very beneficial to them, as well as locals.
+
 Public toilets provide a basic necessity for people who are out and about in the city, whether they are shopping, sightseeing, or attending events. Having access to clean, safe, and accessible public toilets is important for so many reasons. 
+
 For example, public toilets help to create a healthy and hygienic environment within the city. Having somewhere where members of the public can wash their hands can help reduce the spead of illness and viruses such as COVID-19.
+
 Also, having a wide range of public toilets available throuhgout the city will help to boost the levels of tourism in the city. Tourists who visit will feel comfortable that they will be able to relieve themselves a any point during their visit, allowing them to spend less time worrying about that, and instead can focus on the sights of the city.
 
 ### Business benefits
