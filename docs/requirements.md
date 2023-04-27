@@ -12,7 +12,9 @@
 **Citizens of Bristol (Students, Workers, Maintainers) & Tourists**
 - This app will be useful for anyone who is in the city, whether they reside their or are just visiting.
 - The citizens include any person who lives within the boundaries of the city.
+- 
 **Council**
+
 - The local council of Bristol is called 'Bristol City Council'. They are responsible for providing a wide range of public services to the residents of the city. These services include things like waste management, public transportation, education, and social care.
 - In this context, Bristol City Council are responsible for supplying the public toilets, that we are going to be putting on our app.
 
