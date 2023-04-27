@@ -11,6 +11,7 @@ User doesn't share their location with app e.g. want to pre-plan journey and/or 
 
 ### Use Case 2
 ### Scenario
+The 
 
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
