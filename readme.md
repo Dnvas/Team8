@@ -5,12 +5,17 @@ The app is designed for anyone who is in the city of Bristol, whether they are c
 
 # Dataset
 The data set that we have used for our project is this:
+
 https://opendata.bristol.gov.uk/explore/dataset/public-toilets-community/information/?location=15,51.45136,-2.59764&basemap=jawg.streets
+
 We have used the Bristol OpenData to give us access to the locations of all of the public toilets available throughout the city.
 
 Use Case 1 - Daniel
+
 Use Case 2 - Sion
+
 Use Case 3 - Ismail
+
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md) UC1 Daniel UC2 Sion UC3 Ismail
