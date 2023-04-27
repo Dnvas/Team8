@@ -11,7 +11,9 @@ User doesn't share their location with app e.g. want to pre-plan journey and/or 
 
 ### Use Case 2
 ### Scenario
-The 
+A user of a public toilet could have a certain type of need that they require in order to make their experience much better.
+For example, someone who is in a wheelchair will need an accessible toilet, or a parent or carer who is trying to use the toilet for their child, would ideally need a toilet that has baby changing facilities. These people would need to be able to search for toilets in the city that offer these things.
+- The user will need to have a option to filter their search of public toilets, to only include toilets that have the facilities that they desire, otherwise they will arrive at a toile that is potentially inadequate for their needs.
 
 
 ![Insert your Interaction/Sequence Diagrams for each use-case here.](images/sequence.png)
