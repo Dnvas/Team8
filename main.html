@@ -5,60 +5,68 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <header>
-    <button id="mapBtn">Map</button>
-    <button id="graphsBtn">Graphs</button>
-    <button id="infoBtn">Information</button>
-  </header>
-
-  <section id="userSection">
-    <button id="loginBtn">Log In</button>
-    <button id="signupBtn">Sign Up</button>
-  </section>
-
-  <div id="sidebar">
-    <h2>Filters</h2>
-    <form id="filtersForm">
-      <label for="location">Location:</label>
-      <input type="text" id="location" name="location" placeholder="Enter location">
-
-      <h3>Facility Filters:</h3>
-      <label for="disabledAccess">Disabled Access:</label>
-      <input type="checkbox" id="disabledAccess" name="disabledAccess">
-
-      <label for="freeToUse">Free to Use:</label>
-      <input type="checkbox" id="freeToUse" name="freeToUse">
-
-      <label for="insideFacility">Inside Facility:</label>
-      <input type="checkbox" id="insideFacility" name="insideFacility">
-
-      <h3>Transport Filters:</h3>
-      <label for="walking">
-        <input type="checkbox" id="walking" name="walking">
-        <img src="walking.png" alt="Walking" class="transport-icon">
-      </label>
-
-      <label for="car">
-        <input type="checkbox" id="car" name="car">
-        <img src="car.png" alt="Car" class="transport-icon">
-      </label>
-
-      <label for="bike">
-        <input type="checkbox" id="bike" name="bike">
-        <img src="bike.png" alt="Bike" class="transport-icon">
-      </label>
-
-      <button type="submit">Apply Filters</button>
-    </form>
+  <div class="header-container">
+    <header>
+      <button id="mapBtn">Map</button>
+      <button id="graphsBtn">Graphs</button>
+      <button id="infoBtn">Information</button>
+      <section id="userSection">
+        <button id="loginBtn">Log In</button>
+        <button id="signupBtn">Sign Up</button>
+      </section>
+    </header>
+    <div id="pageTitle">Public Toilet Locator Bristol</div>
   </div>
 
-  <section id="content">
-    <div id="map"></div>
-    <div id="resultBox"></div>
-  </section>
+  <div class="main-content">
+    <div id="sidebar">
+      <h2>Filters</h2>
+      <form id="filtersForm">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter location">
+
+        <h3>Facility Filters:</h3>
+        <label for="disabledAccess">Disabled Access:</label>
+        <input type="checkbox" id="disabledAccess" name="disabledAccess">
+
+        <label for="freeToUse">Free to Use:</label>
+        <input type="checkbox" id="freeToUse" name="freeToUse">
+
+        <label for="insideFacility">Inside Facility:</label>
+        <input type="checkbox" id="insideFacility" name="insideFacility">
+
+        <h3>Transport Filters:</h3>
+        <label for="walking">
+          <input type="checkbox" id="walking" name="walking">
+          <img src="walking.png" alt="Walking" class="transport-icon">
+        </label>
+
+        <label for="car">
+          <input type="checkbox" id="car" name="car">
+          <img src="car.png" alt="Car" class="transport-icon">
+        </label>
+
+        <label for="bike">
+          <input type="checkbox" id="bike" name="bike">
+          <img src="bike.png" alt="Bike" class="transport-icon">
+        </label>
+
+        <button type="submit">Apply Filters</button>
+      </form>
+    </div>
+
+    <section id="content">
+      <div class="map-container">
+        <div id="map">
+          <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/public-toilets-community/map/?location=12,51.45779,-2.60925&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InB1YmxpYy10b2lsZXRzLWNvbW11bml0eSIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoib2JqZWN0aWQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjRkE4QzQ0In1dLCJ4QXhpcyI6Im9iamVjdGlkIiwibWF4cG9pbnRzIjo1MCwic29ydCI6IiJ9XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZX0%3D&static=false&datasetcard=false&scrollWheelZoom=false" width="1250" height="700" frameborder="0"></iframe>"
+        </div>
+        <div id="resultBox"></div>
+      </div>
+    </section>
+  </div>
 
   <footer>
-    <!-- Add your footer content here -->
+    
   </footer>
 
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
