@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Bristol Public Toilet Locator</title>
-  
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <header>
@@ -33,29 +33,35 @@
       <input type="checkbox" id="insideFacility" name="insideFacility">
 
       <h3>Transport Filters:</h3>
-      <label for="walking">Walking:</label>
-      <input type="checkbox" id="walking" name="walking">
+      <label for="walking">
+        <input type="checkbox" id="walking" name="walking">
+        <img src="walking.png" alt="Walking" class="transport-icon">
+      </label>
 
-      <label for="car">Car:</label>
-      <input type="checkbox" id="car" name="car">
+      <label for="car">
+        <input type="checkbox" id="car" name="car">
+        <img src="car.png" alt="Car" class="transport-icon">
+      </label>
 
-      <label for="bike">Bike:</label>
-      <input type="checkbox" id="bike" name="bike">
+      <label for="bike">
+        <input type="checkbox" id="bike" name="bike">
+        <img src="bike.png" alt="Bike" class="transport-icon">
+      </label>
 
       <button type="submit">Apply Filters</button>
     </form>
   </div>
 
   <section id="content">
-    <!-- Add your content here -->
+    <div id="map"></div>
+    <div id="resultBox"></div>
   </section>
 
   <footer>
     <!-- Add your footer content here -->
   </footer>
 
-  <script>
-    // Add your JavaScript code here
-  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+  <script src="script.js"></script>
 </body>
 </html>

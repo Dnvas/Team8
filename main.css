@@ -77,4 +77,23 @@ body {
     margin-top: 15px;
     margin-bottom: 5px;
   }
+
+  .transport-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  #map {
+    flex-grow: 1;
+    height: 500px;
+  }
+  
+  #resultBox {
+    width: 300px;
+    padding: 10px;
+    background-color: #e0f0ff;
+    margin-left: 10px;
+  }
   
