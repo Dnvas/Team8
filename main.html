@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bristol Public Toilet Locator</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    #sidebar {
+      width: 300px;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+    
+    #content {
+      flex-grow: 1;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <button id="mapBtn">Map</button>
+    <button id="graphsBtn">Graphs</button>
+    <button id="infoBtn">Information</button>
+  </header>
+
+  <section id="userSection">
+    <button id="loginBtn">Log In</button>
+    <button id="signupBtn">Sign Up</button>
+  </section>
+
+  <div id="sidebar">
+    <h2>Filters</h2>
+    <form id="filtersForm">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter location">
+
+      <h3>Facility Filters:</h3>
+      <label for="disabledAccess">Disabled Access:</label>
+      <input type="checkbox" id="disabledAccess" name="disabledAccess">
+
+      <label for="freeToUse">Free to Use:</label>
+      <input type="checkbox" id="freeToUse" name="freeToUse">
+
+      <label for="insideFacility">Inside Facility:</label>
+      <input type="checkbox" id="insideFacility" name="insideFacility">
+
+      <h3>Transport Filters:</h3>
+      <label for="walking">Walking:</label>
+      <input type="checkbox" id="walking" name="walking">
+
+      <label for="car">Car:</label>
+      <input type="checkbox" id="car" name="car">
+
+      <label for="bike">Bike:</label>
+      <input type="checkbox" id="bike" name="bike">
+
+      <button type="submit">Apply Filters</button>
+    </form>
+  </div>
+
+  <section id="content">
+    <!-- Add your content here -->
+  </section>
+
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+
+  <script>
+    // Add your JavaScript code here
+  </script>
+</body>
+</html>
