@@ -10,8 +10,6 @@ The reason we chose this dataset is due to our belief in Bristol becoming more a
 There are no known issues with this dataset.
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).
-provide a table listing the number of jslint warnings/reports for each module.
 
 Project folder consists of multiple documents laying out our projects' Life Cycle followed by the actual code making up our website.
 
@@ -31,7 +29,7 @@ In this stage, we are now beginning to build the website bit by bit, setting the
 
 Using a mix of HTML/CSS/JS, we are creating the front end of the website keeping a minimalistic feel incorporating mainly light/baby blue and white as the main colours.
 
-For the backend and database control, we used SQL and JS.
+For the backend and database control, we used SQL and nodeJS.
 
  - main.html - HTML for landing page (done in regards to wireframe model)
  - main.css - CSS for landing page 
