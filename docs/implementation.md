@@ -5,6 +5,8 @@ The dataset that we are using for the project is the public toilets dataset, fro
 
 https://opendata.bristol.gov.uk/explore/dataset/public-toilets-community/information/?location=15,51.45136,-2.59764&basemap=jawg.streets
 
+The reason we chose this dataset is due to our belief in Bristol becoming more accessible not only to tourists but also its own citizens.
+
 There are no known issues with this dataset.
 
 ## Project Structure
@@ -27,7 +29,16 @@ Design stage included formulating a blueprint, if you will, on how the user will
 ### Implementation 
 In this stage, we are now beginning to build the website bit by bit, setting the foundation and acting upon our previous ideas established; the wireframe, the user case scenarios, the functional requirements etc.
 
-Using a mix of HTML/CSS/JS, we are creating the website 
+Using a mix of HTML/CSS/JS, we are creating the front end of the website keeping a minimalistic feel incorporating mainly light/baby blue and white as the main colours.
+
+For the backend and database control, we used SQL and JS.
+
+ - main.html - HTML for landing page (done in regards to wireframe model)
+ - main.css - CSS for landing page 
+ - package.json - Contains details regarding project.
+ - SQLConnection.js - allows connection to SQL Database. CSV Parsing logic used here.
+ - simpleServer.js - start up server which we run our website off of.
+ - public-toilets-community.csv - Public toilet data within the city of Bristol.
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
