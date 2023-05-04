@@ -22,7 +22,8 @@ Here, we used our business awareness to create multiple user case scenarios base
 Based on these scenarios, we came up with multiple functional as well as non functional requirements ensuring the users can comfortably use the app as intended.
 
 ### Design
-Design stage included formulating a blueprint, if you will, on how the user will be able to interact with the website depending on the specific user case scenario. After that, we created a wireframe model to base the website upon which, in our case, was applicable to each user case due to the nature of our service.
+Design stage included formulating a blueprint, if you will, on how the user will be able to interact with the website depending on the specific user case scenario. 
+After that, we created a wireframe model to base the website upon which, in our case, was applicable to each user case due to the nature of our service.
 
 ### Implementation 
 In this stage, we are now beginning to build the website bit by bit, setting the foundation and acting upon our previous ideas established; the wireframe, the user case scenarios, the functional requirements etc.
@@ -39,6 +40,12 @@ For the backend and database control, we used SQL and nodeJS.
  - public-toilets-community.csv - Public toilet data within the city of Bristol.
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+
+Server maintained via nodeJS hence node modules being required as well as node running in the background of host machine.
+
+Database containing toilet information of public-toilets-community.csv is maintained within SQL Workbench and accessed through theSQLConnection.js file.
+
+The most appropriate architectural style here would probably be Client-Server due to the nature of our website; users interact with the server containing desired information which consequently results in the website providing said information to the user(s).
+
 
 ![Insert your component Diagram here](images/component.jpg)
