@@ -11,6 +11,24 @@ There are no known issues with this dataset.
 TODO: Provide an outline of the project folder structure and the role of each file within it (not the contents of node_modules).
 provide a table listing the number of jslint warnings/reports for each module.
 
+Project folder consists of multiple documents laying out our projects' Life Cycle followed by the actual code making up our website.
+
+### Planning
+This first step of the life cycle explored the necessity of the project, giving an overview of its benefits, potential drawbacks and any other limitations which may affect the targeted users as a result of inadequate dataset updates etc. 
+
+### Requirements
+Here, we used our business awareness to create multiple user case scenarios based upon intended uses of our service by our targeted user groups. 
+
+Based on these scenarios, we came up with multiple functional as well as non functional requirements ensuring the users can comfortably use the app as intended.
+
+### Design
+Design stage included formulating a blueprint, if you will, on how the user will be able to interact with the website depending on the specific user case scenario. After that, we created a wireframe model to base the website upon which, in our case, was applicable to each user case due to the nature of our service.
+
+### Implementation 
+In this stage, we are now beginning to build the website bit by bit, setting the foundation and acting upon our previous ideas established; the wireframe, the user case scenarios, the functional requirements etc.
+
+Using a mix of HTML/CSS/JS, we are creating the website 
+
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
